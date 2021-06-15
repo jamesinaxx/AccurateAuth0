@@ -3,7 +3,6 @@
 	"name": "TrueAuth0Title",
 	"description": "Keeps the Auth0 website title up to date with the website's content",
 	"version": "1.0",
-	"default_locate": "en",
 	"content_scripts": [
 		{
 			"matches": ["https://auth0.com/*"],
