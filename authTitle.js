@@ -4,6 +4,7 @@ let old1text = 'just anyone';
 window.addEventListener('load', function () {
 	window.setInterval(function () {
 		let items = document.getElementsByClassName('slide-enter-done');
+		if (items.length === 0) return;
 		let text = document.querySelector('title').innerText;
 		text = text.replace(old0text, items[0].innerText);
 		text = text.replace(old1text, items[1].innerText);
