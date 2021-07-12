@@ -1,11 +1,11 @@
 {
 	"manifest_version": 3,
-	"name": "TrueAuth0Title",
+	"name": "Accurate Auth0",
 	"description": "Keeps the Auth0 website title up to date with the website's content",
 	"version": "1.0",
 	"content_scripts": [
 		{
-			"matches": ["https://auth0.com/*"],
+			"matches": ["*://auth0.com/*"],
 			"js": ["authTitle.js"]
 		}
 	]
